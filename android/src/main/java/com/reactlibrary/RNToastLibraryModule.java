@@ -15,8 +15,14 @@ public class RNToastLibraryModule extends ReactContextBaseJavaModule {
     this.reactContext = reactContext;
   }
 
+
   @Override
   public String getName() {
     return "RNToastLibrary";
+  }
+
+  @ReactMethod
+  public String getDevName(){
+    return "Amit Rai";
   }
 }
